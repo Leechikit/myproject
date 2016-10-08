@@ -1,0 +1,18 @@
+{
+	"result": 0,
+	"data": {
+		"name":"distributed grep",
+		"summary": [{
+			"title": "欢迎使用distributed grep",
+			"desc": "distributed grep 将帮助你同时grep数十台机器上的日志，简单输入进程名，即可一键分布式grep您想要的关键字"
+		}, {
+			"title": "如何使用distributed grep?",
+			"desc": "指定daemon服务名,指定关键字,以及时间段，即可查询:",
+			"link": {
+				"name": "示例",
+				"url": "http://baidu.com"
+			}
+		}],
+		"info": []
+	}
+}

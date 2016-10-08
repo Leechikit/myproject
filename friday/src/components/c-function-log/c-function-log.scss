@@ -1,0 +1,61 @@
+.fri-log{
+	width:100%;
+	margin:20px auto;
+	.log-box{
+	    height: 450px;
+	    margin-bottom: 10px;
+	    overflow-y: scroll;
+	}
+	.log-content{
+	    min-height: 450px;
+	    color: #fff;
+	    background-color: #151718;
+	    padding: 9.5px;
+	    padding-left: 25px;
+	    text-indent: -14.5px;
+	    border: none;
+	    border-radius: 2px 2px 0 0;
+	    font-weight: 400;
+	    display: block;
+	    font-size: 13px;
+	    line-height: 1.42857;
+	    white-space: normal;
+	    word-break: break-all;
+	    word-wrap: break-word;
+	    margin-bottom: 0;
+	}
+	.log-item{
+		line-height: 1.5;
+	}
+	.search-text{
+		width:300px;
+		display: inline-block;
+	}
+	.log-bar{
+		overflow: hidden;
+	}
+	.u{
+		color:yellow;
+	}
+	.loading{
+	    .square{
+	        display: inline-block;
+	        width:2px;
+	        height: 2px;
+	        box-shadow: 5px 0 currentColor, 12px 0 currentColor, 19px 0 0 0.5px currentColor;
+	        animation:load 1s infinite step-start;
+	        animation-fill-mode:both;
+	    }
+	}
+}
+@keyframes load{
+    25%{
+        box-shadow: none;
+    }
+    50%{
+        box-shadow: 5px 0 0 0.5px currentColor;
+    }
+    75%{
+        box-shadow: 5px 0 currentColor, 12px 0 0 0.5px currentColor;
+    }
+}

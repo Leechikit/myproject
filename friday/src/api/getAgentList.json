@@ -1,0 +1,13 @@
+{
+    "result": "ok", 
+    "uri": "query_agents", 
+    "key": "dw_libin2", 
+    "agents": [
+        {
+            "host": "172.19.99.144"
+        }, 
+        {
+            "host": "172.19.99.145"
+        }
+    ]
+}

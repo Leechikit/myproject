@@ -1,0 +1,26 @@
+<!-- 运维工具——doggy页面 -->
+<template>
+    <cfunctionchecklogin>
+        <csidebar current="tool"></csidebar>
+        <div class="fri-main">
+            <cfunctionsummary :summary="summary"></cfunctionsummary>
+            <ctooldoggy :name="name"></ctooldoggy>
+        </div>
+    </cfunctionchecklogin>
+</template>
+<script>
+    export default {
+        data () {
+          return {
+            "summary":[{
+                "title": "欢迎使用doggy",
+                "desc": "Doggy 将帮助你在网络接收层做协议分析与查找，用来定位协议是否被发送或者接收,是Google Dapper分布式跟踪的一个实现。"
+            }, {
+                "title": "如何使用doggy?",
+                "desc": "doggy is powful,但我们目前只是支持单个进程的协议分析，但已经足够好用。用法是在控制台输入doggy命令，在日志端grep相关命令,doggy跟踪非常有用，但是仍需要仔细分析"
+            }],
+            "name":"Doggy"
+          };
+        }
+    }
+</script>

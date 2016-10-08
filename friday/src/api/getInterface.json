@@ -1,0 +1,44 @@
+{
+    "result": "ok", 
+    "uri": "query_apis", 
+    "host": "172.19.99.144", 
+    "apis": [
+        {
+            "item": "onProcxxxMsg1", 
+            "test_case": [
+                {
+                    "name":"msg1",
+                    "array": [
+                        {
+                            "type": "int", 
+                            "value": 10
+                        }, 
+                        {
+                            "type": "map", 
+                            "value": 0
+                        }
+                    ]
+                }, 
+                {
+                    "name":"msg2",
+                    "array": [
+                        {
+                            "type": "string", 
+                            "value": "name"
+                        }, 
+                        {
+                            "type": "map", 
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "item": "onProcxxxMsg2"
+        }, 
+        {
+            "item": "onProcxxxMsg3"
+        }
+    ]
+}

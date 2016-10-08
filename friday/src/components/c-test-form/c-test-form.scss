@@ -1,0 +1,142 @@
+.test-mask{
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	z-index: 9999;
+	background-color: rgba(0,0,0, 0.5);
+}
+.test-form{
+	width:60%;
+	height: 60%;
+	min-width: 600px;
+	min-height: 600px;
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	z-index: 10000;
+	background-color: #fff;
+	padding: 20px 30px;
+	border-radius: 5px;
+	.test-main{
+		height: 100%;
+	}
+	.test-table{
+		height: 100%;
+		display: flex;
+		flex-direction:column;
+		overflow: hidden;
+	}
+	.title{
+		font-size: 24px;
+		font-weight: bold;
+		color:#555;
+		border-bottom: 2px solid #000;
+		margin-bottom: 20px;
+		.agent{
+			font-size: 16px;
+			font-weight: normal;
+		}
+	}
+	label.request{
+		position: relative;
+		&::before{
+			content:"*";
+			color:red;
+			font-size: 18px;
+			text-indent: -10px;
+			position: absolute;
+			left:0;
+		}
+	}
+	.error-tips{
+		font-size: 12px;
+		font-weight: normal;
+		color:red;
+		margin-left: 10px;
+	}
+	.box-list{
+		min-height: 150px;
+		padding: 15px 20px 0;
+		border:1px solid #ccc;
+		border-radius: 3px;
+		margin-bottom: 15px;
+		overflow: auto;
+		.box{
+			display: flex;
+			.dropdown{
+				width:80px;
+				height: 34px;
+				margin-right: 20px;
+				button{
+					width:100%;
+					height: 100%;
+				}
+			}
+			input{
+				width:200px;
+				text-align: center;
+				margin-right: 15px;
+			}
+			.btn-deletecase{
+			    width: 24px;
+			    height: 24px;
+			    color: #333;
+			    font-size: 20px;
+			    line-height: 24px;
+			    text-align: center;
+			    cursor: pointer;
+			    margin:5px 0;
+			    &:hover{
+			    	color:red;
+			    }
+			}
+		}
+	}
+	.box{
+		margin-bottom: 15px;
+	}
+	.btn-delete{
+		width:30px;
+		height: 30px;
+		position: absolute;
+		right:-15px;
+		top:-15px;
+		color:#ccc;
+		font-size: 20px;
+		line-height: 28px;
+		text-align: center;
+		background-color: #fff;
+		border: 2px solid #ccc;
+		border-radius: 100%;
+		cursor: pointer;
+	}
+	.btn-add{
+		width:80px;
+		margin-bottom: 15px;
+	}
+	.btn-submit{
+		float: right;
+		display: block;
+		min-width: 54px;
+	}
+	.test-result{
+		height: 100%;
+		display: flex;
+		flex-direction:column;
+		overflow: hidden;
+	}
+	.response{
+		min-height: 500px;
+		padding: 15px 20px 0;
+		border:1px solid #ccc;
+		border-radius: 3px;
+		margin-bottom: 15px;
+		overflow: auto;
+	}
+}

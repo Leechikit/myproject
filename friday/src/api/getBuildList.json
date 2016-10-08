@@ -1,0 +1,18 @@
+{
+	"result": 0,
+	"data": {
+		"summary": [{
+			"title": "欢迎来到服务器代码生成",
+			"desc": "这里汇集了一系列来自于 DaoCloud 以及其他第三方 SaaS 提供商的热门应用服务"
+		}, {
+			"title": "是不是需要一个服务?",
+			"desc": "可以从这里了解如何创建一个数据库服务: "
+		}],
+		"list": [{
+			"name": "服务器代码生成",
+			"desc": "通过填写协议DSL,一键生成协议文件与回调代码",
+			"pic": "https://dn-daoweb-resource.qbox.me/devicon/icons/redis/1426852774_Untitled-2.svg",
+			"path": "/buildServer"
+		}]
+	}
+}

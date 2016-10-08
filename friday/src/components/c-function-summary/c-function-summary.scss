@@ -1,0 +1,31 @@
+.fri-summary{
+    padding: 15px;
+    font-size: 15px;
+    border-color: #dee1e2;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    .section{
+    	padding-top: 10px;
+	    border-top: 1px solid #e6e9ed;
+    	h3{
+    	    color: #656D78;
+    	    font-size: 18px;
+		    font-weight: 500;
+	    }
+	    p{
+    	    color: #aab2bd;
+		    font-size: 16px;
+		    margin-bottom: 20px;
+	    }
+	    &:first-child{
+	    	padding-top: 0;
+	    	border-top: 0;
+	    	padding-bottom: 20px;
+	    	h3{
+	    		font-size: 24px;
+	    	}
+	    }
+    }
+}

@@ -1,0 +1,38 @@
+//@import "_bootstrap.scss";
+html,body,#fri{
+	height: 100%;
+}
+.fri-container{
+	min-height: 100%;
+	position: relative;
+	overflow: auto;
+	display: flex;
+	align-items: stretch;
+	.fri-flexbox{
+		display: flex;
+		margin:0 -10px;
+	}
+}
+.fri-main{
+	flex:1;
+	padding: 30px 30px 30px 180px;
+	background-color: #ecf0f1;
+	transition:padding ease-in-out 0.1s;
+}
+@for $i from 1 through 3 {
+	.fri-flex-#{$i}{
+		flex:$i;
+		margin:0 10px;
+	}
+}
+
+@media screen and (max-width: 1100px){
+	.fri-main{
+		padding-left: 80px;
+	}
+}
+@media screen and (min-width: 1500px){
+	.fri-flex-2 {
+	   flex:3;
+	}
+}
